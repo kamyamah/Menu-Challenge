@@ -1,6 +1,6 @@
 #prefuncy.py
 from week0 import diamond, numbers,soccer
-from week1 import carlist,fib
+from week1 import carlist,fib, turtle
 from week2 import factorialclass,exponentclass,imperative,palindrome
 import time
 import os
@@ -11,6 +11,7 @@ data_menu = [
     ["Diamond", diamond.diamond],
     ["Carlist", carlist.driver],
     ["Soccer", soccer.soccer],
+    ["Triangle", turtle.turtle],
     
 ]
 math_menu = [
