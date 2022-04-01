@@ -18,6 +18,7 @@ math_menu = [
   ["Exponent-Imperative", imperative.imperative],
 ["Fib", fib.driver],
 ["Palindrome", palindrome.driver],
+["Factorial Class", factorialclass.driver],  
 ]
 
 def menu(title, options):
@@ -105,3 +106,4 @@ def driver():
 
 if __name__ == "__main__":
     driver()
+  
